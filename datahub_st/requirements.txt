@@ -1,0 +1,11 @@
+google-cloud-aiplatform
+google-cloud-bigquery
+langchain
+requests
+Pillow
+streamlit
+langchain-google-community
+langchain-google-vertexai
+faiss-cpu
+langchain-google-community[bigquery]
+tqdm
