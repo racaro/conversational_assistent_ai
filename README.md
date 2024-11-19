@@ -9,6 +9,7 @@ A powerful conversational assistant that combines text, images, and natural lang
 - **Streamlit UI**: Provides an interactive web interface for easy deployment and usage.
 
 ## 📂 Project Structure
+```bash
 datahub_st/ 
 ├── img/ # Directory to store project-related images 
 │ └── cofares_logo.jpg # Cofares logo 
@@ -22,6 +23,7 @@ datahub_st/
 ├── dockerfile # Docker image build configuration 
 ├── requirements.txt # Project dependencies 
 ├── README.md # Project documentation
+```
 
 
 ## ⚙️ Setup and Installation
