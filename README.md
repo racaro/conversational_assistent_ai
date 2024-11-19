@@ -19,7 +19,7 @@ datahub_st/
 │ ├── bq_loader.py # Loads data from BigQuery 
 │ ├── config.py # Configuration for Vector Search and other parameters 
 │ ├── search.py # Search and retrieval functionalities 
-│ ├── app.py # Main application built with Streamlit 
+├── app.py # Main application built with Streamlit 
 ├── dockerfile # Docker image build configuration 
 ├── requirements.txt # Project dependencies 
 ├── README.md # Project documentation
