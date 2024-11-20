@@ -1,0 +1,35 @@
+# Ignorar compilados de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Entornos virtuales
+.env/
+.venv/
+
+# Archivos de configuración local
+*.env
+config.py
+
+# Archivos relacionados con Docker
+docker-compose.override.yml
+
+# Archivos de log
+*.log
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y de caché
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignorar dependencias descargadas
+pip-log.txt
+
+# Archivos relacionados con IDEs/editores
+.vscode/
+.idea/

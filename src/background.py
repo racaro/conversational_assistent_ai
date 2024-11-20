@@ -1,25 +1,6 @@
 import streamlit as st
 import base64
 
-def set_background_image(image_path):
-    """
-    Esta función agrega una imagen de fondo a la aplicación Streamlit.
-    Se puede usar una URL o una imagen local.
-    """
-    st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url({image_path});
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            min-height: 100vh;  /* Asegura que el fondo cubra toda la ventana */
-        }}
-        </style>
-        """, unsafe_allow_html=True
-    )
-
 def set_logo_title(logo_url, title="Chat de Búsqueda de Materiales"):
     """
     Esta función agrega un logo junto al título de la aplicación.

@@ -2,11 +2,7 @@ import streamlit as st
 from PIL import Image
 import requests
 from src.search import display_material_images, retriever
-from src.background import set_background_image, set_logo_title, render_input_box, render_followup_message
-
-# Establecer la imagen de fondo
-background_image_url = "https://www.example.com/your-image.jpg"  # URL de la imagen de fondo
-set_background_image(background_image_url)
+from src.background import set_logo_title, render_input_box, render_followup_message
 
 # Título de la aplicación y logo
 logo_url = "./img/cofares_logo.jpg"  # Asegúrate de que el logo esté en la carpeta correcta
