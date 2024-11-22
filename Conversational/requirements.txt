@@ -1,0 +1,9 @@
+ipython
+pandas
+vertexai
+google-cloud-aiplatform
+google-cloud-bigquery
+google-cloud-bigquery-storage
+google-cloud-storage
+db-dtypes
+streamlit
